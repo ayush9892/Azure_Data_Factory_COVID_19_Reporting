@@ -9,6 +9,7 @@
 ### Source Data: 📤
 - ECDC (https://www.ecdc.europa.eu/en/covid-19)
 - Population Data From Azure Files (eurostat_data)
+- [Download these Datasets](https://github.com/ayush9892/Azure_Data_Factory_COVID_19_Reporting/tree/main/Datasets)
 
 ### Destination: 📥📍
 - Azure Data Lake Gen2 Storage
