@@ -1,0 +1,9 @@
+{
+	"name": "covid19-reporting-adf-etl-project",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4231a774-8923-4b9d-ab02-5b76d39c0a0c",
+		"tenantId": "84c31ca0-ac3b-4eae-ad11-519d80233e6f"
+	}
+}

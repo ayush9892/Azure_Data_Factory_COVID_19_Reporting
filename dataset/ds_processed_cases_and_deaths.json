@@ -1,0 +1,21 @@
+{
+	"name": "ds_processed_cases_and_deaths",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_adls_covid19reportingadfadls",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "cases_deaths",
+				"fileSystem": "processed"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,29 @@
+{
+	"name": "ds_ecdc_file_list",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_afileshares_covid19reportingadfadls",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureFileStorageLocation",
+				"fileName": "githubusercontent_ecdc_file_list.json"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"sourceRelativeURL": {
+					"type": "string"
+				},
+				"sinkFileName": {
+					"type": "string"
+				}
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
